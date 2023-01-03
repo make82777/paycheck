@@ -69,7 +69,7 @@ function kreniplate(d,h,m)
       for _, v in pairs(result) do
           --print(v.identifier, v.firstname, v.lastname, v.job, v.job_grade)
           if v.job == 'unemployed' or v.job == 'nezaposlen' or v.job == 'nezaposljen' then
-              dodajPomoc(v.identifier, 25)        
+              dodajPomoc(v.identifier, 50)        
           else
               dodajPlatu(v.identifier, v.job, v.job_grade)
           end
