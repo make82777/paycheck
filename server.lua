@@ -80,7 +80,7 @@ end
 
 Citizen.CreateThread(function()
   for i=0,23 do
-      TriggerEvent("cron:runAt",i,0,runMoneyCoroutines)
+      TriggerEvent("cron:runAt",i,0,kreniplate)
   end
   print("[^6"..GetCurrentResourceName().."^7] Nemoj restartat boga ti dragog allaha")
 end)
